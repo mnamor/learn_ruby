@@ -8,9 +8,9 @@ def subtract(num1, num2)
 end
 
 def sum (arr)
-  somme = 0
+  res = 0
   arr.each do |x|
-    somme += x
+    res += x
   end
-  return somme
+  return res
 end
