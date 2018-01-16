@@ -1,7 +1,7 @@
 # write your code here
 class Book
 
-    attr_accessor :title  #attribution of insance
+    attr_accessor :title  #attribution of instance
 
     def title=(new_title) # define variables
         @title = titleize(new_title) #define fonction title
@@ -33,7 +33,7 @@ class Book
             end
 
         end
-#return final condition of word and add a methode 
+#return final condition of word and add a methode
         return final_word.rstrip
 
     end
